@@ -1,0 +1,4 @@
+#!/bin/bash
+
+export PACKER_CACHE_DIR="$HOME/.packer_cache"
+packer build template.json
