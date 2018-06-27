@@ -1,5 +1,0 @@
-#!/bin/bash
-
-export PACKER_CACHE_DIR="$HOME/.packer_cache"
-mkdir -p "$PACKER_CACHE_DIR"
-packer build template.json
